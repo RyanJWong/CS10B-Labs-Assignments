@@ -12,7 +12,7 @@ int main() {
       for (int i = 0; i < arrSize; ++i) {
          cin >> arr[i];
       }
-      const int *minLoc = min(arr, arrSize);
+      const int * minLoc = min(arr, arrSize);
       cout << *minLoc << endl;
    }   
    return 0;
